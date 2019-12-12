@@ -1,0 +1,162 @@
+header {
+    margin: 0px;
+    background-color: black;
+    color: #ff00a9;
+    font-size: 120%;
+    position: fixed;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Molengo;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  header:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  
+  #header-img {
+    width: 6%;
+    float: left;
+    padding: 10px 0px 0px ;
+  }
+  
+  #title {
+    float: left;
+    margin-left: 3%;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 35px;
+  }
+  
+  nav a {
+    color: #ff00a9;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  
+  form {
+    text-align: center;
+    padding-top: 20%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+  }
+  
+  .container img {
+    width: 100px;
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .container .grid {
+    margin: 20px;
+  }
+  
+  iframe {
+    display: block;
+    margin: auto;
+  }
+  
+  @media (max-width: 1200px) {
+    #header-img {
+      width: 0%;
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    #title {
+      float: none;
+      margin: 0px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    
+    nav {
+      float: none;
+      text-align: center;
+    }
+    
+    form {
+      padding-top: 40%;
+    }
+   
+  }
+  
+  h2 {
+    color: #8c0083;
+  }
+  
+  footer li {
+    font-weight: 900;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    color: #8c0083;
+    background-color: black;
+  }
+  
+  #container-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #container-2 h3 {
+    padding: 0px 40px 0px 40px;
+  }
+  
+  #container-2 h4 {
+    padding: 0px 40px 0px 40px
+  }
+  
+  #container-2 .grid {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: black;
+    color: #8c0083;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 20px
+  }
+  
+  .button:hover {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade {
+    100% {
+        background-color: white;
+    }
+  }
+  
+  

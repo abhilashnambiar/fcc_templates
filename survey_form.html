@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="survey_form.css">
+  </head>
+  <header>
+    <h1 id="title">Survey Form</h1>
+  <p id="description">A survey about your commute preferences.</p>
+  </header>
+  <body>
+      <form id="survey-form">
+        <fieldset><legend><h3>Basic Info:</h3></legend>
+        <label id="name-label">Name: </label><input type="text" id="name" class="pos" placeholder="Enter your Name" required><br><br>
+        <label id="email-label">E-Mail: </label><input class="pos" type="email" id="email" placeholder="Enter your E-Mail" required><br><br>
+        <label id="number-label">Age: </label><input class="pos" type="number" id="number" min="0" max="100" placeholder="Enter your Age"><br><br>
+        <label>How do you get around most days? </label>&nbsp;<select id="dropdown">
+          <option>--Choose an option--</option>
+          <option>Drive a Car/Motorcycle</option>
+          <option>Take public Transport</option>
+          <option>Walk</option>
+          <option>Cycle</option>
+          </select>
+          </fieldset>
+       <br>
+        <fieldset><legend><h3>Employment Status:</h3></legend>
+          <label class="pos-l"><input class="pos-r" type="radio" name="emp" value="stud">Student</label><br><br>
+          <label><input class="pos-r" type="radio" name="emp" value="work">Working</label><br><br>
+        <label><input class="pos-r" type="radio" name="emp" value="notWork">Not yet Working</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend><h3>Your daily commute includes:</h3></legend>
+          <label><input type="checkbox" value="car">Car</label><br><br>
+          <label><input type="checkbox" value="public">Public Transport</label><br><br>
+          <label><input type="checkbox" value="bike">Motorcycle</label><br><br>
+          <label><input type="checkbox" value="walk">Walk</label><br><br>
+          <label><input type="checkbox" value="cycle">Cycle</label>
+        
+       <br><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>
+            <h3>Additional comments/Exceptional modes of commmute:</h3></legend><br><textarea></textarea>
+        </fieldset>
+    <br>   
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+      
